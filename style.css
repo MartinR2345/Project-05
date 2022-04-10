@@ -1,0 +1,21 @@
+/* This targets the body section of my HTML file */
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: yellow;
+}
+
+/* This targets my container of my HTML file */
+
+#container{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    border: 4px solid black;
+}

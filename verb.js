@@ -13,7 +13,7 @@ function setClock() {
     let seconds = currentDate.getSeconds();
 
     // Create a variable named "session" and grab the <span> tag with the id name of "session" from the DOM by using the document.getElementById() method. I can use this to read or edit(modify) an HTML element
-    var session = document.getElementById('session');
+    let session = document.getElementById('session');
 
     // I used an if/else statement to create a condition where if hours(hrs) is greater than or equal to 12 then sessions in my HTML will pass by 'PM' or else sessions in my HTML will pass by 'AM'
     if(hrs >= 12){
